@@ -1,43 +1,270 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138179071-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
-  gtag('config', 'UA-138179071-1');
-</script>
-  <base target="_blank">
-  <meta charset="UTF-8" />
-  <title>Avi Tomar</title>
-  <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
-  <!-- remember, jQuery is completely optional -->
-  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
-  <script type="text/javascript" src="js/jquery.particleground.js"></script>
-  <script type="text/javascript" src="js/demo.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-<div id="particles">
-  <div id="intro">
-      <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 10;">Avi Tomar&nbsp<a href="avi_resume.pdf" style="color: white;"><img src="https://png.icons8.com/office/40/000000/open-resume.png" height="35" width="35"></a></h2>
-        <hr style="width: 50%; background-color: #E83951; border-color: #E83951;">
-    <a href="https://www.linkedin.com/avi-tomar-75232282/" style="color: white;"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a>
-    &nbsp
-    <a href="https://www.facebook.com/profile.php?id=100004982899120" style="color: white;"><i class="fab fa-facebook" style="font-size: 2em;"></i></a>
-    &nbsp
-    <a href="https://github.com/avitomar12" style="color: white;"><i class="fab fa-github" style="font-size: 2em;"></i></a>
-    &nbsp
-    <a href="https://medium.com/@avi.tomar12" style="color: white;"><i class="fab fa-medium" style="font-size: 2em;"></i></a>
-  </div>
-</div>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Avi Tomar</h1>
+            <h2>Data Scientist</h2>
+            <a href="/resume.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
 
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Avi has completed B.Sc in Physical Science from Acharya Narendra Dev College(Universtiy of Delhi). He completed M.Sc Computer Science specialization in <b>Artificial Intelligence</b> from the central university of rajasthan. He is fueled by his passion for understanding the fandamental laws of universe and machine learning. He is always hungry and determined  for new challenges in life as well as work. He worked at SPIE Chapter, ANDC as a memeber where he visited many delhi schools and tought high school and intermediate basic optics. Avi belives mindfulness in the workplace is the key to success hence, he is not only visualizing the problem in jupyter notebook but also getting hands on guitar and harmonica. He is currently working on building strong machine learning engineer profile.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="August 2014 – May 2015">
+                <h3>SPIE Chapter</h3>
+                <h4>Web Administrator and Member</h4>
+                <p>
+                   As a Web admin i kept all ANDC fellow and outside people attached with SPIE chapter informed and updated. As a member we visited many delhi schools to take 2-3 hours of demonstration of optics law using kit designed by SPIE Chapte, ANDC. 
+                </p>
+            </div>
+
+        -->
+        </div>
+    </div>
+    <!-- End #experience -->
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Central University of Rajasthan</h3>
+            <span class="education-date">July 2017 - May 2019</span>
+            <h4>Masters of Science in Computer Science </h4>
+            <p>
+                <li>
+                Specilization in Artifical Intelligence
+
+                </li>
+                <li>
+                	CGPA :- 7.6/10
+                </li>
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>University of Delhi</h3>
+            <span class="education-date">July 2012 - June 2015</span>
+            <h4>Bachelor of Science in Physical Science</h4>
+            
+                <li>
+                    Major Subjects: Physics, Mathematics and Computer Science
+                </li>
+                <li>
+                    Percentage :- 71.1%
+                </li>
+              
+            
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/anomaly.png" height="200" width="250" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Anomaly Detection</h3>
+                        <p>
+                        Two task :
+                        
+                            Given credit card transaction from the european dataset predicted the transaction is fraud or legitmate.
+                        
+                        
+                        Builded up the mechanical system and Flask app to monitor the system and detect anomaly in mechinal system.
+                        
+                        </p>
+                        <a href="https://github.com/avitomar12/Anomaly-Detection">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/download.jpeg" height="200" width="250" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Face Recognition Application</h3>
+                        <p>
+                            Android app deployed on AWS takes photo as Input and compares with existing data using KNN algorithm and tells where person is identified or not.
+                        </p>
+                        <a href="https://github.com/avitomar12/FaceRecognitionApp">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                 <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/bacteria.jpg"  height="200", width="250" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Predicting the Habitat of Bacteria using its Proteome</h3>
+                        <p>
+                            Analyzed how contents of protein structure affect the habitat of bacteria and developed a machine learning model to predict habitat of bacteria from its proteome.
+                        </p>
+                        <a href="https://github.com/avitomar12/Habitat-Prediction-of-Bacteria">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+           
+            <li>Python</li>
+
+            <li>Machine learning</li>
+            <li>Deep Learning</li>
+            <li>Data Mining</li>
+            <li>Java</li>
+            <li>C</li>
+           
+            <li>C++</li>
+           
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/avitomar12@gmail.com">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Test Message"></textarea>
+  <button type="submit">Send </button>
+</form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Avi Tomar
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
