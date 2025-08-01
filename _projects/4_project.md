@@ -2,7 +2,7 @@
 layout: page
 title: Anomaly Detection in Hardware Systems
 description: End-to-end pipeline for anomaly detection using ML, IoT sensors, and AWS Cloud.
-img: assets/img/anomaly-detection.jpg
+img: 
 importance: 1
 category: Research
 related_publications: false

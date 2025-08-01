@@ -2,7 +2,7 @@
 layout: page
 title: Traveling Salesman Problem Solver
 description: Python-based Genetic Algorithm solution for the Traveling Salesman Problem.
-img: assets/img/tsp-solver.jpg
+img: 
 importance: 1
 category: Fun
 related_publications: false

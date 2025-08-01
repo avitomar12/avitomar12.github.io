@@ -2,7 +2,7 @@
 layout: page
 title: Graph Burning
 description: Research project on parameterized algorithms for graph burning with conference publication.
-img: assets/img/1.png
+img: 
 importance: 1
 category: Research
 related_publications: true
