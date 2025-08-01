@@ -2,11 +2,26 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+### Teaching Assistant – Mathematics II
+**IIIT Bangalore**  
+*Class Size: 120 students*  
+- Prepared standard exam solutions for coursework.
+- Facilitated the learning of complex mathematical concepts through tutorials and doubt-clearing sessions.
+
+### Teaching Assistant – Machine Learning
+**Central University of Rajasthan**  
+*Class Size: 35 students*  
+- Conducted tutorials and lab sessions bridging theoretical concepts with practical implementations of machine learning algorithms.
+- Assisted students in understanding assignments, projects, and algorithmic workflows.
+
+### Teaching Assistant – Data Science Bootcamp
+**AI Planet (formerly DPhi)**  
+*Mentored 15 participants*  
+- Guided participants through end-to-end data science projects.
+- Provided support on exploratory data analysis (EDA), feature engineering, model building, and result presentation.
