@@ -1,19 +1,19 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='https://researchportal.vub.be/en/persons/avi-tomar'>Affiliations</a>.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
-  more_info: >
-    <p> VUB Main Campus</p>
-    <p>Pleinlaan 2</p>
-    <p> 1050 Brussels (Elsene), Belgium</p>
+  image_circular: false # crops the image to make it circular
+# more_info: >
+#    <p> VUB Main Campus</p>
+#    <p>Pleinlaan 2</p>
+#    <p> 1050 Brussels (Elsene), Belgium</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,11 +27,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-As a Research Assistant at the University of Twente, my work revolves around crafting optimization algorithms for energy management systems. My academic journey, including a MS by Research in Graph theory and Parameterized algorithms and a MSc in Computer Science, has equipped me with a robust foundation in data analysis and software development.
+## Welcome to My Personal Website!
 
-Outside of work, I enjoy running, swimming, and cycling, and I hope to complete a triathlon one day. I’m always curious and love exploring new technologies and new ideas.
+I am currently pursuing a **PhD at the Department of Informatics and Applied Informatics** at [Vrije Universiteit Brussel](https://www.vub.be/) under the supervision of **Prof. Bas Ketsman**. My research focuses on **scalable data systems**, **query optimization**, **graph theory**, and **algorithms**.
 
-To fuel my creativity I write poetry and article. Find them on Medium.
+Beyond my academic work, I am an avid learner with a deep interest in emerging technologies. I also enjoy outdoor activities such as **hiking, running, and swimming**, which bring balance to my life and often inspire my approach to problem-solving and innovation.
 
-My Erdős number is 3. 
+I’m always happy to discuss my research and publications. If you have any questions or would like to collaborate, feel free to **reach out**!
+
+Fun fact: My **Erdős number is 3**.
 
