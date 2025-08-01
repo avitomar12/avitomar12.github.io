@@ -1,30 +1,17 @@
 ---
 layout: page
-title: Grocery Price Comparison Web App
-description: Full-stack application for real-time grocery price comparison across supermarkets.
-img: assets/img/1.png
+title: Traveling Salesman Problem Solver
+description: Python-based Genetic Algorithm solution for the Traveling Salesman Problem.
+img: assets/img/tsp-solver.jpg
 importance: 1
-category: work
+category: Fun
 related_publications: false
 ---
 
-Designed and developed a grocery price comparison platform using **Python FastAPI**, enabling users to retrieve real-time pricing data across 5 major supermarkets.
+Developed a Python-based solver for the **Traveling Salesman Problem (TSP)** using genetic algorithms, achieving efficient route optimization.
 
-- Integrated search feature powered by **Sentence Transformer model** deployed on AWS Lambda.
-- Backend hosted on AWS EC2 with API Gateway ensuring low-latency responses.
-- Automated deployment using CI/CD pipelines with GitHub Actions.
+- Implemented core genetic algorithm features: **selection, crossover, mutation, fitness evaluation** to improve solution accuracy.
+- Open-source project with active community engagement: **21 forks and 10 stars** on GitHub.
+- Practical tool for learning genetic algorithms and route optimization strategies.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.png" title="Search Feature" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.png" title="API Architecture" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.png" title="Deployment Pipeline" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: Search interface; Middle: API architecture; Right: CI/CD pipeline overview.
-</div>
+
