@@ -1,5 +1,8 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+As a Research Assistant at the University of Twente, my work revolves around crafting optimization algorithms for energy management systems. My academic journey, including a MS by Research in Graph theory and Parameterized algorithms and a MSc in Computer Science, has equipped me with a robust foundation in data analysis and software development.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Outside of work, I enjoy running, swimming, and cycling, and I hope to complete a triathlon one day. I’m always curious and love exploring new technologies and new ideas.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+To fuel my creativity I write poetry and article. Find them on Medium.
+
+My Erdős number is 3. 
+
