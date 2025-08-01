@@ -169,14 +169,14 @@ ninja.data = [{
             },},{id: "news-started-phd-at-vrije-universiy-of-brussels",
           title: 'Started PhD at Vrije Universiy of Brussels.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-graph-burning",
+          title: 'Graph Burning',
+          description: "Research project on parameterized algorithms for graph burning with conference publication.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-grocery-price-comparison-web-app",
+          title: 'Grocery Price Comparison Web App',
+          description: "Full-stack application for real-time grocery price comparison across supermarkets.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{
