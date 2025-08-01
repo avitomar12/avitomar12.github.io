@@ -38,7 +38,7 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
+          title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -51,117 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-sunset",
-        
-          title: 'Sunset, <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@avi.tomar12/sunset-6fb1068ec329?source=rss-167b19d73f1d------2", "_blank");
-          
-        },
-      },{id: "post-found-love",
-        
-          title: 'Found love <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@avi.tomar12/found-love-6801614e9f47?source=rss-167b19d73f1d------2", "_blank");
-          
-        },
-      },{id: "post-pen",
-        
-          title: 'Pen <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@avi.tomar12/pen-174d637ea814?source=rss-167b19d73f1d------2", "_blank");
-          
-        },
-      },{id: "post-unfinished-promises",
-        
-          title: 'Unfinished Promises <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@avi.tomar12/unfinished-promises-f508fb082170?source=rss-167b19d73f1d------2", "_blank");
-          
-        },
-      },{id: "post-water-in-a-borrowed-shape",
-        
-          title: 'Water in a Borrowed Shape <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@avi.tomar12/water-in-a-borrowed-shape-4d1ae06ed1f7?source=rss-167b19d73f1d------2", "_blank");
-          
-        },
-      },{id: "post-even-in-heaven",
-        
-          title: 'Even in Heaven <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@avi.tomar12/even-in-heaven-5d49ba625f8f?source=rss-167b19d73f1d------2", "_blank");
-          
-        },
-      },{id: "post-this-pebble",
-        
-          title: 'This Pebble <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@avi.tomar12/this-pebble-048d6ea71963?source=rss-167b19d73f1d------2", "_blank");
-          
-        },
-      },{id: "post-sickness",
-        
-          title: 'Sickness <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@avi.tomar12/sickness-f68bb9177eae?source=rss-167b19d73f1d------2", "_blank");
-          
-        },
-      },{id: "post-a-quiet-weight",
-        
-          title: 'A Quiet Weight <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@avi.tomar12/a-quiet-weight-3ef63e376ac7?source=rss-167b19d73f1d------2", "_blank");
-          
-        },
-      },{id: "post-no-savior-needed",
-        
-          title: 'No Savior Needed <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@avi.tomar12/no-savior-needed-b380f9842235?source=rss-167b19d73f1d------2", "_blank");
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
@@ -178,7 +68,17 @@ ninja.data = [{
           title: 'Grocery Price Comparison Web App',
           description: "Full-stack application for real-time grocery price comparison across supermarkets.",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-traveling-salesman-problem-solver",
+          title: 'Traveling Salesman Problem Solver',
+          description: "Python-based Genetic Algorithm solution for the Traveling Salesman Problem.",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-anomaly-detection-in-hardware-systems",
+          title: 'Anomaly Detection in Hardware Systems',
+          description: "End-to-end pipeline for anomaly detection using ML, IoT sensors, and AWS Cloud.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{
         id: 'social-email',
         title: 'email',
